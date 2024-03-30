@@ -3,6 +3,7 @@ import './App.css';
 import MyButton from './component/MyButton';
 import AboutPage from './component/AboutPage';
 import Profile from './component/Profile';
+import Conditional from './component/Conditional';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MyButton />
       <AboutPage />
       <Profile />
+      <Conditional />
     </div>
   );
 }
