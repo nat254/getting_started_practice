@@ -7,11 +7,18 @@ const Conditional = () => {
     // } else{
     //     return <div>Bad</div>;
     // };
-    let isGood = true;
+    // let isGood = true;
+    // return(
+    //    <div>
+    //     {isGood? (<p>Good</p>) : (<p>Bad</p>)}
+    //    </div>
+    // );
+    let isGood = false;
     return(
-       <div>
-        {isGood? (<p>Good</p>) : (<p>Bad</p>)}
-       </div>
+        <div>
+            {isGood && <p>Good</p>}
+            {!isGood && <p>Bad</p>}
+        </div>
     );
 };
 
