@@ -5,6 +5,7 @@ import AboutPage from './component/AboutPage';
 import Profile from './component/Profile';
 import Conditional from './component/Conditional';
 import ProductList from './component/ProductList';
+import TwoButtonsDemo from './component/TwoButtonsDemo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Profile />
       <Conditional />
       <ProductList />
+      <TwoButtonsDemo />
     </div>
   );
 }
