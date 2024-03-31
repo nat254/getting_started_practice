@@ -4,6 +4,7 @@ import MyButton from './component/MyButton';
 import AboutPage from './component/AboutPage';
 import Profile from './component/Profile';
 import Conditional from './component/Conditional';
+import ProductList from './component/ProductList';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutPage />
       <Profile />
       <Conditional />
+      <ProductList />
     </div>
   );
 }
