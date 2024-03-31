@@ -6,6 +6,7 @@ import Profile from './component/Profile';
 import Conditional from './component/Conditional';
 import ProductList from './component/ProductList';
 import TwoButtonsDemo from './component/TwoButtonsDemo';
+import ShareData from './component/ShareData';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Conditional />
       <ProductList />
       <TwoButtonsDemo />
+      <ShareData  />
     </div>
   );
 }
