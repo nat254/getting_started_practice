@@ -7,6 +7,7 @@ import Conditional from './component/Conditional';
 import ProductList from './component/ProductList';
 import TwoButtonsDemo from './component/TwoButtonsDemo';
 import ShareData from './component/ShareData';
+import Gallery from './component/Gallery';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ProductList />
       <TwoButtonsDemo />
       <ShareData  />
+      <Gallery />
     </div>
   );
 }
