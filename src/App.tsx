@@ -8,6 +8,7 @@ import ProductList from './component/ProductList';
 import TwoButtonsDemo from './component/TwoButtonsDemo';
 import ShareData from './component/ShareData';
 import Gallery from './component/Gallery';
+import ToDoList from './component/ToDoList';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <TwoButtonsDemo />
       <ShareData  />
       <Gallery />
+      <ToDoList />
     </div>
   );
 }
