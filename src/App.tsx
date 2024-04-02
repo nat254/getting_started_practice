@@ -10,6 +10,7 @@ import ShareData from './component/ShareData';
 import Gallery from './component/Gallery';
 import ToDoList from './component/ToDoList';
 import PropsDemo from './component/PropsDemo';
+import PropDrilling from './component/PropDrilling';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Gallery />
       <ToDoList />
       <PropsDemo  />
+      <PropDrilling />
     </div>
   );
 }
