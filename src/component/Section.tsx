@@ -1,9 +1,16 @@
 import React from 'react';
+import { LevelContext } from '../LevelContext';
 
-export default function Section({ children }: React.PropsWithChildren<{}>){
+interface SectionProps {
+  level: number;
+}
+
+export default function Section({ level, children }: React.PropsWithChildren<SectionProps>){
     return (
         <section className="section">
-            {children}
+            <LevelContext.Provider value={level}>
+                {children}
+            </LevelContext.Provider>
         </section>
     );
 };
