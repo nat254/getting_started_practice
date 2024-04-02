@@ -9,6 +9,7 @@ import TwoButtonsDemo from './component/TwoButtonsDemo';
 import ShareData from './component/ShareData';
 import Gallery from './component/Gallery';
 import ToDoList from './component/ToDoList';
+import PropsDemo from './component/PropsDemo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ShareData  />
       <Gallery />
       <ToDoList />
+      <PropsDemo  />
     </div>
   );
 }
