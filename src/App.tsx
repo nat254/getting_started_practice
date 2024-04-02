@@ -11,6 +11,7 @@ import Gallery from './component/Gallery';
 import ToDoList from './component/ToDoList';
 import PropsDemo from './component/PropsDemo';
 import PropDrilling from './component/PropDrilling';
+import ProfilePage from './component/ProfilePage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <ToDoList />
       <PropsDemo  />
       <PropDrilling />
+      <ProfilePage />
     </div>
   );
 }
