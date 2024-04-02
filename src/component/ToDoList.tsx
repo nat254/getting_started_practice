@@ -1,13 +1,23 @@
 import React from 'react';
 
+const properties = {
+    name:'Hedy Lamarr',
+    theme:{
+        backgroundColor: 'lightblue',
+        color: 'brown'
+    },
+    photo: 'https://i.imgur.com/yXOvdOSs.jpg',
+   
+};
+
 const ToDoList = () => {
     return (
-        <div>
-            <h1>Hedy Lamarr's Todos</h1>
+        <div style = {properties.theme}>
+            <h1>{properties.name}'s Todos</h1>
 
             <img
-                src="https://i.imgur.com/yXOvdOSs.jpg"
-                alt="Hedy Lamarr"
+                src={properties.photo}
+                alt={properties.name}
                 className="photo"
             />
 
