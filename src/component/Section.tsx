@@ -5,7 +5,12 @@ import { LevelContext } from '../LevelContext';
 //   level: number;
 // }
 
-export default function Section({children }: React.PropsWithChildren<{}>){
+type SectionProps = {
+    children: React.ReactNode;
+
+}
+
+export default function Section({children }: SectionProps){
     const level = useContext(LevelContext);
     return (
         <section className="section">
