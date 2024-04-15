@@ -12,6 +12,7 @@ import ToDoList from './component/ToDoList';
 import PropsDemo from './component/PropsDemo';
 import PropDrilling from './component/PropDrilling';
 import ProfilePage from './component/ProfilePage';
+import List from './component/List';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <PropsDemo  />
       <PropDrilling />
       <ProfilePage />
+      <List />
     </div>
   );
 }
